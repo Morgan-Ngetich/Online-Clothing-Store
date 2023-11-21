@@ -17,6 +17,7 @@ function Shirts({isproduct}) {
           <p><span>Brand:</span> {shirt.brand}</p>
           <p><span>Price:</span> {shirt.price}</p>
           <p><span>Size:</span> {shirt.size}</p>
+          <p><span>Stock:</span> {shirt.stock}</p>
           <button className="add-to-cart">Add To Cart</button>
           </div>
           
