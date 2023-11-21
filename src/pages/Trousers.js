@@ -12,7 +12,7 @@ function Trousers({ isproduct }) {
             <p><span>Brand:</span> {product.brand}</p>
             <p><span>Price:</span> {product.price}</p>
             <p><span>Size:</span> {product.size}</p>
-            <p><span>Stock:</span> {product.stock}</p>
+            <p><span>Stocks:</span> {product.stock}</p>
             <button className='add-to-cart'>Add to cart</button>
           </div>
         </div>
