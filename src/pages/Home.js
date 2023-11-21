@@ -1,6 +1,7 @@
 import { useState,useEffect } from "react"
 import Trousers from "./Trousers"
 import Shirts from "./Shirts"
+import Shoes from "./Shoes"
 function Home(){
   const[isproduct,setIsProduct]=useState([])
   useEffect(()=>{
@@ -13,6 +14,7 @@ function Home(){
     <h1>HOME</h1>
     <Shirts isproduct={isproduct}/>
     <Trousers isproduct={isproduct}/>
+    <Shoes isproduct={isproduct}/>
     </>
   )
 }
