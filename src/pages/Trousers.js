@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Trousers({ isproduct }) {
-  console.log('Trousers', isproduct.trousers); 
+  console.log('Trousers', isproduct.trousers.stock); 
   return (
     <div className="card-container">
       {isproduct?.trousers?.map((product) => (
@@ -12,6 +12,7 @@ function Trousers({ isproduct }) {
             <p><span>Brand:</span> {product.brand}</p>
             <p><span>Price:</span> {product.price}</p>
             <p><span>Size:</span> {product.size}</p>
+            <p><span>Stock:</span> {product.stock}</p>
             <button className='add-to-cart'>Add to cart</button>
           </div>
         </div>
