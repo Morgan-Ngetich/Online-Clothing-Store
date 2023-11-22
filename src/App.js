@@ -21,6 +21,7 @@ function App() {
      {isLoggedIn ? (
         <div>
           <button onClick={handleLogout}>Logout</button>
+          
           <Home />
         </div>
       ) : (
