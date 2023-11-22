@@ -18,7 +18,8 @@ function Shirts({isproduct}) {
           <p><span>Price:</span> {shirt.price}</p>
           <p><span>Size:</span> {shirt.size}</p>
           <p><span>Stock:</span> {shirt.stock}</p>
-          <button className="add-to-cart">Add To Cart</button>
+         
+          <button className="add-to-cart" onClick={() => onAddToCart(shirt)} >Add To Cart</button>
           </div>
           
        
