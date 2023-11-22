@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Trousers({ isproduct }) {
+function Trousers({ isproduct, onAddToCart }) {
   //console.log('Trousers', isproduct.trousers.stock); 
   return (
     <div className="card-container">
@@ -13,7 +13,7 @@ function Trousers({ isproduct }) {
             <p><span>Price:</span> {product.price}</p>
             <p><span>Size:</span> {product.size}</p>
             <p><span>Stock:</span> {product.stock}</p>
-            <button className='add-to-cart'>Add to cart</button>
+            <button className='add-to-cart' onClick={() => onAddToCart(product)}>Add to cart</button>
           </div>
         </div>
       ))}
