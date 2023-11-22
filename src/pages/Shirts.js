@@ -1,6 +1,6 @@
 // import React, { useState, useEffect } from 'react';
+function Shirts({isproduct, onAddToCart}) {
 
-function Shirts({isproduct,onAddToCart}) {
   
 
  
