@@ -4,7 +4,7 @@ import React,{useState} from 'react';
 function Shoes({ isproduct, onAddToCart }) {
   const [searchTerm, setSearchTerm] = useState('');
   const handleAddToCart = (product) => {
-    // Toggle the inCart status when adding to the cart
+  
     product.inCart = !product.inCart;
     onAddToCart(product);
   };
