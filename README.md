@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# CURATED FASHION FOR EVERY OCCASION
+##### JavaScript ,HTML , Css And React Application 11/24/2023  
+##### By**Stanley Wanjau**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+Welcome to ShoeTroursShirts, your one-stop destination for high-quality shoes, trousers, and shirts. Our e-commerce platform is designed to provide a seamless and enjoyable shopping experience, offering a wide range of products to meet your fashion needs.
+## Features
+1. Product Categories
+ Explore our extensive collection of shoes, trousers, and shirts, carefully curated to keep you in style. From casual wear to formal attire, we have something for every occasion.
+2.  User-friendly Interface
+   Our website boasts a clean and intuitive design, making it easy for you to navigate and find the perfect items. Enjoy a hassle-free shopping experience with a user-friendly interface.
 
-## Available Scripts
+3. Shopping Cart
+   Easily add your favorite products to the shopping cart with a single click. The cart allows you to review your selected items, update quantities, and proceed to checkout when you're ready to make a purchase.
+   # HOW TO USE
+  1. Browsing Products
 
-In the project directory, you can run:
+* Navigate through the website using the menu or search bar to find the products you're interested in.
+2. Adding to Cart
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Click the "Add to Cart" button to place the item in your  shopping cart.
+3. Shopping Cart
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Access your shopping cart by clicking on the cart icon.
+Review your selected items.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Requirements
+* A computer With a json-server 
+* Access to the internet
 
-### `npm run build`
+### Installation process
+1. clone this respository using 
+```bash 
+git clone https://github.com/stanleywanjau/Online-Clothing-Store
+```
+or by downloading a ZIP file of the code 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. The repository, if downloaded as a .zip file will need to be extracted to your preferred location.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Navigate to the project folder on your bash terminal.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+```
+## Technologies Used
+* JS
+* json server
+* react
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Support and Contact Details
+Incase of any query, need for collaboration or issues with this code, feel free to reach me at
+stanley.muiruri@student.moringaschool.com
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License 
+MIT License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Copyright &copy; 2023 Stanley Wanjau ,Tyrese mugo ,Morgan-Ngetich,
+victor-muriuki
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-## Learn More
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
