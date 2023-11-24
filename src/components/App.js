@@ -32,7 +32,7 @@ function App() {
       setIsLoader(true) 
     })
   },[])
- //console.log("Products:", isproduct)
+ 
 
  if (!isLoader) {
   return <h3>Loading...</h3>;
