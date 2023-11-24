@@ -24,7 +24,7 @@ function App() {
   const[cart,setCart]=useState([]) 
 
   useEffect(()=>{
-    fetch(" http://localhost:3000/products")
+    fetch(" https://onlineshopping-d1lw.onrender.com/products")
     .then(res=>res.json())
     .then((products)=>{ 
       setIsProduct(products)
@@ -42,7 +42,7 @@ function handleAddToCart(product) {
     setCart([...cart, product]);
 
     // Send a POST request to add the item to the cart on the server
-    fetch('http://localhost:3000/cart', {
+    fetch('https://onlineshopping-d1lw.onrender.com/cart', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -64,7 +64,7 @@ function handleRemoveFromCart(productId) {
   setCart(cart.filter((item) => item.id !== productId));
 
   // Send a DELETE request to remove the item from the cart on the server
-  fetch(`http://localhost:3000/cart/${productId}`, {
+  fetch(`https://onlineshopping-d1lw.onrender.com/cart/${productId}`, {
     method: 'DELETE',
   })
     .then((response) => response.json())
