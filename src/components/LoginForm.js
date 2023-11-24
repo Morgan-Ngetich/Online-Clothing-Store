@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 
 const LoginForm = ({ onLogin }) => {
   const [email, setEmail] = useState('');
@@ -34,28 +33,28 @@ const LoginForm = ({ onLogin }) => {
 
   return (
     <div className="login-form">
-      <h2>Login</h2>
+      <h2 className="h2-login">Login</h2>
       {error && <p className="error-message">{error}</p>}
       <form onSubmit={handleSubmit}>
-        <label>
-          Email:
+        <label>          
           <input
             type="email"
             value={email}
+            placeholder="Enter Email"
             onChange={(e) => setEmail(e.target.value)}
           />
         </label>
         <br />
-        <label>
-          Password (8 digits):
+        <label>          
           <input
             type="password"
             value={password}
+            placeholder="Password (8 digits)"
             onChange={(e) => setPassword(e.target.value)}
           />
         </label>
         <br />
-        <button type="submit">Login</button>
+        <button className="fomm-btn"type="submit">Login</button>
       </form>
     </div>
   );

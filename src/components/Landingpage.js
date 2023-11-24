@@ -1,8 +1,8 @@
 import { useState,useEffect } from "react"
-import Trousers from "./Trousers"
-import Shirts from "./Shirts"
-import Shoes from "./Shoes"
-import Cart from "./Cart"
+import Trousers from "../pages/Trousers"
+import Shirts from "../pages/Shirts"
+import Shoes from "../pages/Shoes"
+import Cart from "../pages/Cart"
 function Home(){
   const[isproduct,setIsProduct]=useState([])
   const[cart,setCart]=useState([])
