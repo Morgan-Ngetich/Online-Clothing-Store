@@ -24,6 +24,7 @@ function Trousers({ isproduct, onAddToCart }) {
         <input
           type="text"
           placeholder="Search trouser..."
+          className="search"
           value={searchTerm}
           onChange={handleSearchChange}
         />

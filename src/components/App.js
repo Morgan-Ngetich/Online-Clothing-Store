@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import LandingPage from './LandingPage';
-import LoginForm from "./LoginForm"
+import LandingPage from "./Landingpage";
+import LoginForm from "./LoginForm";
 import Shirts from '../pages/Shirts';
 import Shoes from '../pages/Shoes';
-import Trousers from '../pages/Trousers';
-import Cart from '../pages/Cart'
+import Trousers from "../pages/Trousers";
+import Cart from '../pages/Cart';
 import NavBar from './Navbar';
 
 function App() {
@@ -21,8 +21,7 @@ function App() {
 
   const[isproduct,setIsProduct] = useState([])
   const [isLoader,setIsLoader]=useState(false)
-  const[cart,setCart]=useState([])
- 
+  const[cart,setCart]=useState([]) 
 
   useEffect(()=>{
     fetch(" http://localhost:3000/products")
@@ -85,7 +84,6 @@ function handleRemoveFromCart(productId) {
   };
 
   
-   
   return (
     <div className="App">
       <Router>

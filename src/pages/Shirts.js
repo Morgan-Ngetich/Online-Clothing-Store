@@ -5,7 +5,6 @@ function Shirts({isproduct,onAddToCart}) {
   const [searchTerm, setSearchTerm] = useState('');
 
   const handleAddToCart = (product) => {
-    // Toggle the inCart status when adding to the cart
     product.inCart = !product.inCart;
     onAddToCart(product);
   };
@@ -27,6 +26,7 @@ function Shirts({isproduct,onAddToCart}) {
           type="text"
           placeholder="Search shirts..."
           value={searchTerm}
+          className="search"
           onChange={handleSearchChange}
         />
       </div>

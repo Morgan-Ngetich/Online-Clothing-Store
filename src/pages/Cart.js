@@ -33,11 +33,12 @@ function Cart({ cart, onRemoveFromCart,onBuyItem  }) {
       
   return (
     <>
-      <h2>Shopping Cart</h2>
+      <h2 className="shopping-cart-header">Shopping Cart</h2>
       <div>
         <input
           type="text"
           placeholder="Search items..."
+          className="search"
           value={searchTerm}
           onChange={handleSearchChange}
         />
@@ -65,16 +66,16 @@ function Cart({ cart, onRemoveFromCart,onBuyItem  }) {
                 </p>
               </div>
               
-            <button
-                style={{ backgroundColor: 'green' }}
+            <button 
+                className="buy"             
                 onClick={() => handleBuyClick(item.id, item.stock)}
               >
                 BUY
               </button>
-            <button className="remove-from-cart" onClick={() => onRemoveFromCart (item.id)} style={{backgroundColor:"red"}}>
+            <button className="remove-from-cart" onClick={() => onRemoveFromCart (item.id)}>
               Remove from Cart
             </button>
-      <button onClick={handlePayClick} style={{ backgroundColor: 'blue' }}>
+      <button onClick={handlePayClick} className="pay">
         Pay
       </button>
           </div>
